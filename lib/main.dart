@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter GetX',
-      theme: ThemeData(),
+      theme: ThemeData(appBarTheme: AppBarTheme(color: Colors.purple.shade400)),
       home: ShoppingPage(),
     );
   }

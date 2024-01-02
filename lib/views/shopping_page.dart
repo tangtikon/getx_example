@@ -27,7 +27,6 @@ class ShoppingPage extends StatelessWidget {
             ),
           )
         ],
-        backgroundColor: Colors.purple,
       ),
       body: SafeArea(
         child: Column(
